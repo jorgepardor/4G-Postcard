@@ -5,13 +5,18 @@
 
 body {
 	background: black;
+	position:relative;
+
 }
 
 .postcard {
 	background: white;
-	height: 300px;
-	width: 400px;
+	height: 400px;
+	width: 600px;
 	margin: auto;
+	top: 0; bottom: 0; left: 0; right: 0;
+	position:absolute;
+
 }
 
 .postcard-header {
@@ -24,7 +29,7 @@ body {
 }
 
 .postcard-header h1 {
-	width: 400px;
+	width: 600px;
 	margin: 0;
 }
 
@@ -55,6 +60,7 @@ body {
 
 .postcard-footer {
 	text-align: center;
+	margin-top: 50px;
 }
 
 .postcard-footer button {
