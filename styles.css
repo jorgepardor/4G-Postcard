@@ -21,6 +21,8 @@ body {
 
 .postcard-header {
 	display: flex;
+	padding: 10px;
+
 }
 
 .postcard-header img {
